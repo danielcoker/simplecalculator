@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Simple Calculator | AFCF</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="main-div">
+
+        <h1>Simple Calculator</h1>
+
+        <hr>
+
+        <form action="" method="POST" id="calculator-form">
+            <input type="text" name="input" value="" id="input" class="form-control" autofocus>
+        
+
+        <hr>
+
+        <div id="operators">
+            <button type="button" class="btn btn-primary operator" data-operator="+">&#43;</button>
+            <button type="button" class="btn btn-primary operator" data-operator="-">&#45;</button>
+            <button type="button" class="btn btn-primary operator" data-operator="*"><sub>&#42;</sub></button>
+            <button type="button" class="btn btn-primary operator" data-operator="/">&#47;</button>
+            <button type="button" class="btn btn-primary operator" data-operator="(">(</button>
+            <button type="button" class="btn btn-primary operator" data-operator=")">)</button>
+            <button type="button" class="btn btn-primary" id="clear">Clear</button>
+                        
+        </div>
+
+        <hr>
+
+        <div class="row numbers">
+            <table class="table">
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-default number" data-number="7">7</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-default number" data-number="8">8</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-default number" data-number="9">9</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-default number" data-number="4">4</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-default number" data-number="5">5</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-default number" data-number="6">6</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-default number" data-number="1">1</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-default number" data-number="2">2</button>
+                    </td>
+                    <td>
+                        <button type="button" class="btn btn-default number" data-number="3">3</button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <button type="button" class="btn btn-default number" data-number="0">0</button>
+                    </td>
+                    <td colspan="2">
+                        <div id="equals">
+                        <button type="submit" class="btn btn-primary" id="result">&#61;</button>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        </form>
+
+    </div> <!--/ End Main Div -->
+
+    <footer>
+        &copy; Simple Calculator - Daniel Coker, 2018.
+    </footer>
+
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

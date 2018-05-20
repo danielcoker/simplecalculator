@@ -1,0 +1,71 @@
+::selection {
+    background: #ffffff;
+    color: #000000;
+}
+body {
+    font-family: fantasy;
+    background: url("../images/1.jpg")
+}
+input {
+    text-align: right;
+}
+#main-div {
+    background-color: rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    margin: 5vh auto 0 auto;
+    padding: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+#main-div hr {
+    width: 30%;
+    color: #ffffff;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    /* margin: 1em 0; */
+    padding: 0;
+}
+#operators button {
+    width: 10%;
+}
+#clear {
+    width: 20% !important;
+}
+#operators button, #equals button {
+    background-color: #6A6EAB;
+    border: 1px solid #6A6EAB;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 0px;
+    transition: all ease 0.3s;
+}
+#operators button:active, #equals button:active {
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.2);
+    top: 3px;
+}
+#equals button {
+    width: 100%;
+}
+table button {
+    background-color: #DDDDDD;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.2);
+    position: relative;
+    top: 0px;
+    transition: all ease 0.3s;
+}
+table button:active {
+    box-shadow: 0 3px 0 rgba(0, 0, 0, 0.2);
+    top: 3px;
+}
+footer {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 14px;
+    font-size: 80%;
+    letter-spacing: 2px;
+}
